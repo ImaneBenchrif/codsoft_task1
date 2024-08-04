@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! How can I assist you today?",
+        "Hello! What can I do for you?",
+        "Hi! How can I help you?",
+        "Good day! What information do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Farewell! Stay healthy!",
+        "Bye! Feel free to reach out if you need more help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What diet plans do you offer?",
+        "What kinds of diet packages are available?",
+        "Do you offer personalized diet plans?",
+        "What is included in your diet packages?"
+      ],
+      "responses": [
+        "We offer various diet plans, personalized diet packages, and nutrition consultations.",
+        "Our services include meal plans, dietary consultations, and custom diet strategies.",
+        "We have a range of diet plans, including personalized meal plans and nutritional advice.",
+        "Our packages include meal planning, dietary guidance, and ongoing support."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?",
+        "Are there any additional fees?"
+      ],
+      "responses": [
+        "We accept major credit cards, PayPal, and bank transfers.",
+        "You can pay with a credit card, PayPal, or bank transfer.",
+        "There are no additional fees for using standard payment methods.",
+        "We accept VISA, Mastercard, and PayPal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When can I expect my diet plan?",
+        "What is the delivery time for diet plans?"
+      ],
+      "responses": [
+        "Delivery usually takes 2-5 business days.",
+        "Diet plans are typically delivered within 3-5 business days.",
+        "You should receive your diet plan within 2-5 business days.",
+        "We aim to deliver diet plans within 3 business days."
+      ]
+    },
+    {
+      "tag": "diet_advice",
+      "patterns": [
+        "What are some diet tips for weight loss?",
+        "Can you provide advice on maintaining a balanced diet?",
+        "What should I know before starting a keto diet?",
+        "Are there any guidelines for a plant-based diet?"
+      ],
+      "responses": [
+        "For diet tips and guidelines, please check our website or consult with our diet experts.",
+        "Some tips for a balanced diet include eating a variety of foods, controlling portion sizes, and staying hydrated.",
+        "Before starting a keto diet, make sure to understand its principles, benefits, and potential side effects.",
+        "We offer advice on plant-based diets, including meal planning and nutrient considerations."
+      ]
+    },
+    {
+      "tag": "healthy_eating",
+      "patterns": [
+        "What are some healthy meal ideas?",
+        "Can you suggest nutritious snacks?",
+        "What should I eat for a balanced diet?",
+        "How can I make my diet healthier?"
+      ],
+      "responses": [
+        "For healthy meal ideas, try incorporating vegetables, lean proteins, and whole grains into your diet.",
+        "Nutritious snacks include fruits, nuts, yogurt, and whole grain options.",
+        "A balanced diet typically includes a variety of fruits, vegetables, lean proteins, and whole grains.",
+        "To make your diet healthier, focus on whole foods, reduce processed foods, and stay hydrated."
+      ]
+    }
+  ]
+}
